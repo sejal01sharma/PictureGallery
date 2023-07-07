@@ -1,0 +1,141 @@
+!DOCTYPE html
+html
+head
+  meta charset=UTF-8
+  meta name=viewport content=width=device-width
+  titlePHOTOS BY SAGEtitle
+  style
+    body {
+      font-family'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif
+    }
+    .header {
+      background-color #444;
+      color #fff;
+      padding 1%;
+      text-align center;
+    }
+    nav {
+      background-color #333;
+      color #fff;
+      padding 0.9%;
+      text-align center;
+      font-size large;
+    }
+    nav a {
+      color #fff;
+      text-decoration wavy;
+      margin 10px;
+    }
+    h4 {
+      margin auto;
+    }
+    p {
+      margin auto;
+    }
+    pfirst-letter {
+      font-size x-large;
+      text-transform uppercase;
+    }
+    .coverimage {
+      width 100%;
+      height 400px;
+      background-image url(httpsi.pinimg.com564x7bc6617bc6615b6aa1c6cba392505566cbade1.jpg);
+      background-size cover;
+      background-position center;
+    }
+    .container {
+      max-width 1200px;
+      marginauto;
+      padding 4%;
+    }
+    .posts {
+      displaygrid;
+      grid-template-columns repeat(3, 1fr);
+      gap 4%;
+    }
+    .post {
+      border 1px solid #ccc;
+      padding 2%;
+      width 100%;
+      height 60%;
+    }
+    .post img{
+      width 100%;
+      height 80%;
+      object-fit cover;
+    }
+    .posthover{
+        border 1px solid #777;
+    }
+    footer {
+        background-color #333;
+        color #fff;
+        padding 20px;
+    }
+    .footer-content {
+        max-width 1200px;
+        margin 0 auto;
+        display flex;
+        justify-content space-between;
+        align-items center;
+    }
+    .footer-links {
+        list-style none;
+        display flex;
+        padding 0;
+    }
+    .footer-links li {
+        margin-right 20px;
+    }
+    .footer-links a {
+        color #fff;
+        text-decoration none;
+    }
+    .footer-links ahover {
+        text-decoration underline;
+    }
+  style
+head
+body
+    div class=header
+        h1A COLLECTION OF BREATHTAKING PICTURESh1
+    div
+  nav
+    a href=#Homea
+    a href=#Abouta
+    a href=#Contacta
+  nav
+  div class=coverimagediv
+  div class=container
+    h2Nature Postsh2
+    div class=posts
+      div class=post
+        a target=_blank href=httpsi.pinimg.com564x41afe941afe99dd22836f69de6123dcbc43a63.jpga
+        img src=httpsi.pinimg.com564x41afe941afe99dd22836f69de6123dcbc43a63.jpg alt=Shimla
+        h4a href=sage.html target=_selfSAGEah4br
+        ptook this picture in Shimla. It is the Municipal Corporation Office in Mall Road. One of the historical buildings present in Shimla. It is a very pretty building.p
+      div
+      div class=post
+        img src=httpsi.pinimg.com564xde1abfde1abfbe18e7beb38ceff8033d22315f.jpg alt=Bird
+        h4a href=dhruv.html target=_selfDHRUVah4br
+        pGuardians of the Sky Birds perched high, watchful eyes surveying their domain, embodying strength and resilience.p
+      div
+      div class=post
+        img src=httpsi.pinimg.com564xaccd59accd59c8bc5fba79f1ada6884e725070.jpg alt=Kangra
+        h4a href=aryan.html target=_selfARYANah4br
+        pthe view is from a beautiful village Balwar  in Kangra. Up here everything looks really pretty and breathtaking.p
+      div
+    div
+  div
+  footer
+    div class=footer-content
+    p&copy; 2023 My WebPage. All Rights Reserved.p
+    ul class=footer-links
+        lia href=#Privacy Policyali
+        lia href=#Terms of Serviceali
+        lia href=#Contact Usali
+    ul
+    div
+  footer
+body
+html
