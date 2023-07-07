@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width">
+  <title>PHOTOS BY SAGE</title>
+  <style>
+    body {
+      font-family:'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif
+    }
+    .header {
+      background-color: #444;
+      color: #fff;
+      padding: 1%;
+      text-align: center;
+    }
+    nav {
+      background-color: #333;
+      color: #fff;
+      padding: 0.9%;
+      text-align: center;
+      font-size: large;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: wavy;
+      margin: 10px;
+    }
+    h4 {
+      margin: auto;
+    }
+    p {
+      margin: auto;
+    }
+    p::first-letter {
+      font-size: x-large;
+      text-transform: uppercase;
+    }
+    .image1 {
+      width: 100%;
+      height: 400px;
+      background-image: url("https://i.pinimg.com/564x/7b/c6/61/7bc6615b6aa1c6cba392505566cbade1.jpg");
+      background-size: cover;
+      background-position: center;
+    }
+    .container {
+      max-width: 1200px;
+      margin:auto;
+      padding: 4%;
+    }
+    .posts {
+      display:grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 4%;
+    }
+    .post {
+      border: 1px solid #ccc;
+      padding: 2%;
+      width: 100%;
+      height: 60%;
+    }
+    .post img{
+      width: 100%;
+      height: 80%;
+      object-fit: cover;
+    }
+    .post:hover{
+        border: 1px solid #777;
+    }
+    footer {
+        background-color: #333;
+        color: #fff;
+        padding: 20px;
+    }
+    .footer-content {
+        max-width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .footer-links {
+        list-style: none;
+        display: flex;
+        padding: 0;
+    }
+    .footer-links li {
+        margin-right: 20px;
+    }
+    .footer-links li:last-child {
+        margin-right: 0;
+    }
+    .footer-links a {
+        color: #fff;
+        text-decoration: none;
+    }
+    .footer-links a:hover {
+        text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+    <div class="header">
+        <h1>A COLLECTION OF BREATHTAKING PICTURES</h1>
+    </div>
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+  </nav>
+  <div class="image1"></div>
+  <div class="container">
+    <h2>Nature Posts</h2>
+    <div class="posts">
+      <div class="post">
+        <a target="_blank" href="https://i.pinimg.com/564x/41/af/e9/41afe99dd22836f69de6123dcbc43a63.jpg"></a>
+        <img src="https://i.pinimg.com/564x/41/af/e9/41afe99dd22836f69de6123dcbc43a63.jpg" alt="Shimla">
+        <h4><a href="sage.html" target="_self">SAGE</a></h4><br>
+        <p>took this picture in Shimla. It is the Municipal Corporation Office in "Mall Road". One of the historical buildings present in Shimla. It is a very pretty building.</p>
+      </div>
+      <div class="post">
+        <img src="https://i.pinimg.com/564x/de/1a/bf/de1abfbe18e7beb38ceff8033d22315f.jpg" alt="Bird">
+        <h4><a href="dhruv.html" target="_self">DHRUV</a></h4><br>
+        <p>"Guardians of the Sky: Birds perched high, watchful eyes surveying their domain, embodying strength and resilience."</p>
+      </div>
+      <div class="post">
+        <img src="https://i.pinimg.com/564x/ac/cd/59/accd59c8bc5fba79f1ada6884e725070.jpg" alt="Kangra">
+        <h4><a href="aryan.html" target="_self">ARYAN</a></h4><br>
+        <p>the view is from a beautiful village "Balwar"  in Kangra. Up here everything looks really pretty and "breathtaking".</p>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <div class="footer-content">
+    <p>&copy; 2023 My WebPage. All Rights Reserved.</p>
+    <ul class="footer-links">
+        <li><a href="#">Privacy Policy</a></li>
+        <li><a href="#">Terms of Service</a></li>
+        <li><a href="#">Contact Us</a></li>
+    </ul>
+    </div>
+  </footer>
+</body>
+</html>
